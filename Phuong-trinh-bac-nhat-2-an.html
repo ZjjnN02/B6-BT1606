@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phuong trinh bac nhat 2 an</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var a, b, c;
+        a = prompt(`Enter a`)
+        b = prompt(`Enter b`)
+        c = prompt(`Enter c`)
+        var d = (b * b) - (4 * a * c)
+        if(a == 0) {    
+            if(b == 0) {
+                if(c == 0) {
+                    document.write('All are solution of x')
+                } else {
+                    document.write(`Can't solve for x`)
+                }
+            } else {
+                document.write('x = ' + (-c/b))
+            }
+        }
+    </script>
+    
+</body>
+</html>
